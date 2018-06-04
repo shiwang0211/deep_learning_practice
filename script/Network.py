@@ -1,5 +1,5 @@
 import numpy as np
-from script.Layers import *
+from script.Layer import *
 class Network:
     def __init__(self):
         self.layers = []
@@ -8,6 +8,7 @@ class Network:
         
     def add(self, new_layer):
         if self.layers:
+            self.layers[-1].after = new_layer
             new_layer.before = self.layers[-1]
         self.layers.append(new_layer)
     
@@ -19,8 +20,8 @@ class Network:
         self.input = input
         self.y = y
         self.load_data(input[:batch_size,:], y[:batch_size])
-        for layer in self.layers:
-            layer.initialize_Wb()
+        #for layer in self.layers:
+        #    layer.initialize_Wb()
 
     def train(self, num_iter, learning_rate, batch_size, rand_, lambda_, optimizer = 'Vanilla', Val_X = None, Val_y = None, 
              CAL_STEP = 100, PRINT_STEP = 100):

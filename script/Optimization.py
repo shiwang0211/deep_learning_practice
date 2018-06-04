@@ -7,6 +7,12 @@ import numpy as np
 def VanillaUpdate(x, dx, learning_rate):
     x += -learning_rate * dx
     return x
+        
+# Vanilla version
+#self.W += -learning_rate * self.dW + (- lambda_ * self.W)
+#self.b += -learning_rate * self.db
+#self.gamma += -learning_rate * self.dgamma
+#self.beta  += -learning_rate * self.dbeta
 
 def MomentumUpdate(x, dx, v, learning_rate, mu):
     v = mu * v - learning_rate * dx # integrate velocity, mu's typical value is about 0.9
