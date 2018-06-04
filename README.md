@@ -18,16 +18,18 @@ The purpose of this repository is to practice deep-learning and reinforcement le
   - Dataset: Synthetic
 
 
-## Nerual_Network_Scratch.ipynb
+## Neural_Network_Scratch - Part I.ipynb
 - Build neural network from scratch using Numpy
   - [X] Basic Activation Functions
   - [X] Fully-connected Layer 
   - [X] Different Update Methods
   - [X] Batch Normalization Layer
   - [X] Drop-out Layer
-  - [ ] Convolutional layer
+  - [X] Convolutional layer
   - [ ] Recurrent Layer
-  
+
+## Neural_Network_Scratch - Part II.ipynb
+- Application of components from Part I
 - Dataset
   - Synthetic
   - MNIST
