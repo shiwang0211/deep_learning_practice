@@ -1,6 +1,12 @@
 # Deep_Learning_Practice
 The purpose of this repository is to practice deep-learning and reinforcement learning. 
 
+## Tensorflow Practice.ipynb
+Practice with Tensorflow:
+- Eager Execution
+- Estimator API
+- Dataset API
+
 ## CNN RNN Pratice.ipynb
 - Example 1:
   - Methodology: CNN 
