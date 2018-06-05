@@ -1,28 +1,19 @@
 # Deep_Learning_Practice
 The purpose of this repository is to practice deep-learning and reinforcement learning. 
 
+## Concept Notes.ipynb
+- Key concepts in NN
+- CNN
+- RNN
+- NLP/Language Modelling
+- Machine Translation/RNN
+
 ## Tensorflow Practice.ipynb
 Practice with Tensorflow:
 - Eager Execution
 - Estimator API
 - Dataset API
-
-## CNN RNN Pratice.ipynb
-- Example 1:
-  - Methodology: CNN 
-  - Tool: Tensorflow Estimator API
-  - Dataset: MNIST
-
-- Example 2: 
-  - Methodology: RNN (LSTM)
-  - Tool: Tensorflow Estimator API
-  - Dataset: Synthetic
-  
-- Example 3: 
-  - Methodology: RNN (LSTM)
-  - Tool: Tensorflow Lower-level API
-  - Dataset: Synthetic
-
+- Keras with TF backend
 
 ## Neural_Network_Scratch - Part I.ipynb
 - Build neural network from scratch using Numpy
@@ -40,5 +31,21 @@ Practice with Tensorflow:
   - Synthetic
   - MNIST
   - IRIS
+
+## CNN RNN Pratice.ipynb
+- Example 1:
+  - Methodology: CNN 
+  - Tool: Tensorflow Estimator API
+  - Dataset: MNIST
+
+- Example 2: 
+  - Methodology: RNN (LSTM)
+  - Tool: Tensorflow Estimator API
+  - Dataset: Synthetic
+  
+- Example 3: 
+  - Methodology: RNN (LSTM)
+  - Tool: Tensorflow Lower-level API
+  - Dataset: Synthetic
 
 
