@@ -54,4 +54,10 @@ This notebook includes some practice examples to apply tensorflow to build DL mo
   - Tool: Tensorflow Lower-level API
   - Dataset: Synthetic
 
+## 6. GCP_CPU.ipynb
+A comparison of computational performance between CPU and GPU based on a test run on Google Cloud Platform (GCP)
+
+## 7. Generative Adversarial Networks (GAN).ipynb
+- Concept Notes
+- An example based on MNIST dataset to generate fake digits
 
