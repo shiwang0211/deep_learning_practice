@@ -1,7 +1,7 @@
 # Deep_Learning_Practice
 The purpose of this repository is to practice deep-learning and reinforcement learning. 
 
-## 1. Concept Notes.ipynb
+## 1. [Concept Notes.ipynb](https://github.com/shiwang0211/deep_learning_practice/blob/master/Concepts_Notes.ipynb)
 - Key concepts in NN
 - CNN (different architectures for CNN)
 - RNN (from RNN to LSTM/GRU)
