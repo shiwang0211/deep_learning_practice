@@ -54,7 +54,7 @@ This notebook includes some practice examples to apply tensorflow to build DL mo
   - Tool: Tensorflow Lower-level API
   - Dataset: Synthetic
 
-## 6. [Recommendation_System.ipynb](https://github.com/shiwang0211/nlp_practice/blob/master/Recommender_System.ipynb)
+## 6. [Recommendation_System.ipynb](https://github.com/shiwang0211/deep_learning_practice/blob/master/Recommender_System.ipynb)
 - Memory-based CF
     - User-Item Filtering
     - Item-Item Filtering
