@@ -54,10 +54,21 @@ This notebook includes some practice examples to apply tensorflow to build DL mo
   - Tool: Tensorflow Lower-level API
   - Dataset: Synthetic
 
-## 6. [GCP_CPU.ipynb](https://github.com/shiwang0211/deep_learning_practice/blob/master/GCP_GPU.ipynb)
+## 6. [Recommendation_System.ipynb](https://github.com/shiwang0211/deep_learning_practice/blob/master/Recommender_System.ipynb)
+- Memory-based CF
+    - User-Item Filtering
+    - Item-Item Filtering
+- Model-based CF
+    - Matrix Factorization
+    - Deep Learning
+    - Implementation of deep-learning-based CF with keras
+- Ranking Algorithms
+- Click-Through Rate (*CTR*) model
+
+## 7. [GCP_CPU.ipynb](https://github.com/shiwang0211/deep_learning_practice/blob/master/GCP_GPU.ipynb)
 A comparison of computational performance between CPU and GPU based on a test run on Google Cloud Platform (GCP)
 
-## 7. [Generative Adversarial Networks (GAN).ipynb](https://github.com/shiwang0211/deep_learning_practice/blob/master/Generative%20Adversarial%20Networks%20(GAN).ipynb)
+## 8. [Generative Adversarial Networks (GAN).ipynb](https://github.com/shiwang0211/deep_learning_practice/blob/master/Generative%20Adversarial%20Networks%20(GAN).ipynb)
 - Concept Notes on GAN network
 - Practice with an example based on MNIST dataset to generate fake digits
 
