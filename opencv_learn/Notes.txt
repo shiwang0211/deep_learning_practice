@@ -1,0 +1,22 @@
+- Download image
+
+docker pull bamos/openface
+
+- Docker: start container 
+	- with port 8889
+	- Mount local folder to be accessible to container
+
+docker run -p 9000:9000 -p 8889:8889 -v ~/Desktop/Github/opencv_learn:/root/shiwang -t -i bamos/openface /bin/bash
+
+
+- Some codes needed to run (temporary)
+	- pip install tornado==4.5
+	- sudo apt-get remove ipython
+	- pip install jupyter
+	- cd /root/shiwang
+	- cp ssh_config /etc/ssh/ssh_config
+- Run Jupiter
+jupyter notebook --ip 0.0.0.0 --port 8889 --no-browser --allow-root
+
+- Copy to host:
+http://localhost:8889/
