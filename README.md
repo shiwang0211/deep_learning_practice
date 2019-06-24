@@ -31,7 +31,7 @@ The purpose of this repository is to practice deep-learning and reinforcement le
     - Field Factorization Machine
     - GBDT + LR
     - Wide and Deep
-    - Deep FM
+    - Deep FM (Implementation [here](https://github.com/shiwang0211/kdd_cup_2019/blob/master/Deep-FM.ipynb) )
     - Neural Factorization Machines
     - Deep Interest Network
     - Entire Space Multitask Model 
